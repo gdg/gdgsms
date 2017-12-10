@@ -1,6 +1,6 @@
 {
   "name": "@gdg/gdgsms",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "homepage": "",
   "author": {
@@ -29,7 +29,6 @@
     "jest-cli": "^21.0.0"
   },
   "scripts": {
-    "prepublish": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
     "test": "jest"
